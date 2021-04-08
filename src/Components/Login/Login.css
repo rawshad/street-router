@@ -1,0 +1,32 @@
+.text-center {
+    text-align: center;
+}
+.login__form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: auto;
+    background-color: #6d6d6d17;
+}
+
+input[type=email], input[type=password], button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid silver;
+}
+
+button {
+    background-color: #FF6E40;
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .login__form {
+        width: 80vw;
+    }
+}

@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+    height: 10vh;
+    background: rgb(44, 44, 44);
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav ul {
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul .list__item {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.nav button {
+    padding: 10px 15px;
+    margin-right: 20px;
+    background-color: #FF6E40;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav button .list__item--btn {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav ul li {
+        padding: 30px;
+    }
+
+    .nav button {
+        margin-bottom: 10px;
+        margin-right: -50px;
+    }
+  }

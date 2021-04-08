@@ -1,0 +1,13 @@
+.selected__card {
+    width: 30vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: yellowgreen;
+    margin-left: 2%;
+}
+
+.selected__card img {
+    width: 20%;
+}

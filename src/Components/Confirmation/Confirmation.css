@@ -1,0 +1,12 @@
+.confirmation {
+    display: flex;
+    align-items: center;
+}
+.locator{
+    width: 70vw;
+    padding: 20px;
+}
+.locator img {
+    width: 100%;
+    margin: auto;
+}
