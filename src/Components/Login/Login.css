@@ -9,7 +9,7 @@
     background-color: #6d6d6d17;
 }
 
-input[type=email], input[type=password], button {
+input[type=email], input[type=password], input[type=submit], button {
     padding: 10px;
     margin: 10px;
     border: none;
@@ -17,7 +17,7 @@ input[type=email], input[type=password], button {
     border-bottom: 1px solid silver;
 }
 
-button {
+button, input[type=submit] {
     background-color: #FF6E40;
     cursor: pointer;
     color: #FFFFFF;
